@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand";
+}
+body{
+    
+    background-color: lightgray;
+
+}
+a{
+    text-decoration: none;
+}
+.mainHeader{
+    padding: 20px;
+    text-align: center;
+}
+section{
+    margin: 20px;
+    background: linear-gradient(45deg,lightgray, aliceblue);
+    width: 50%;
+    border-radius: 10px;
+}
+section header{
+    font-size: 20px;
+}
+section small{
+    font-size: 13px;
+}
+.blogsBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.blogDetailsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.blogDetailsDiv small{
+    font-size: 13px;
+}
+.blogDetailsDiv div{
+    width: 80%;
+}
+.makeNewBlogDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.makeNewBlogDiv button{
+    margin-top: 10px;
+    width: 80px;
+}
