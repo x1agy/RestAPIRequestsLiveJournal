@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './Pages/Home';
 import CreateNewBlog from './Pages/CreateNewBlog';
 import BlogInfo from "./Pages/ReadMorePage";
-import "./Css/index.css";
+import "./Pages/Css/index.css";
 import Header from './Components/Header';
 
 function App() {
